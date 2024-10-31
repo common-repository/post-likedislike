@@ -1,0 +1,42 @@
+body{
+          background:red;
+}
+
+/*
+WPLD Like Dislike CSS
+*/
+
+.wpld_like_dislike_btn {
+    display: inline-block; 
+    /* width: % ; */
+    padding: 10px;
+    font-size: 20px;
+    margin: 1% 2%;
+    border: 0px solid #cccccc;
+    background: #f8f8f8;
+    text-align: center;
+    text-transform: uppercase;
+    color: #999999;
+    transition:0.5s all;
+    text-decoration: none;
+}
+
+.wpld_like_dislike_btn:hover{
+          text-decoration: none;
+          color:inherit;
+
+}
+
+
+.wpld_like:hover{
+          background: #2d8f2d;
+          color:#ffffff;
+
+}
+
+
+.wpld_dislike:hover{
+          background: rgb(233, 51, 38);
+          color:#ffffff;
+
+}
